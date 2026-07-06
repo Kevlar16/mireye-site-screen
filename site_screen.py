@@ -19,7 +19,7 @@ import webbrowser
 import os
 
 # ---- PASTE YOUR TOKEN BETWEEN THE QUOTES BELOW ----
-TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXAiOiJhcGlfdG9rZW4iLCJpc3MiOiJtaXJleWUtZWFydGgiLCJhdWQiOiJtaXJleWUtYXBpIiwic3ViIjoiTW1GbGJwOUU2d1dWS3dHdWtaVlZtOGhvOE9QMiIsImp0aSI6InRva19RRUFJaFUzNWhGQTd6QSIsImlhdCI6MTc4MzA1NDYzMiwiZXhwIjoxNzkwODMwNjMyfQ.kZeM_Pu49zU1HjKnYCc8vrRJaDZsls4Fct9NwDmW8JE"
+TOKEN = "api-key-here"
 # ----------------------------------------------------
 
 BASE_URL = "https://api.mireye.com"
@@ -195,7 +195,7 @@ td, th {{ text-align: left; padding: 6px 8px; border-bottom: 1px solid #eee; }}
 
 
 def main():
-    if TOKEN == "PASTE_YOUR_MIREYE_TOKEN_HERE":
+    if TOKEN == "api-key-here":
         print("Stop! Open this file in a text editor and paste your real Mireye token")
         print("into the TOKEN = \"...\" line near the top, then save and re-run.")
         return
